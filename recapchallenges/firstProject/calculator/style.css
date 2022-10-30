@@ -1,0 +1,14 @@
+body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    background: rgb(32, 13, 80);
+}
+
+button{ 
+    padding: 10px 15px;
+    background-color: yellow;
+}

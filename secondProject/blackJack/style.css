@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(images/image.jpg);
+    background-size: cover;
+    text-align: center; 
+    margin-top: 20vh;
+    height: 100vh;
+    overflow:hidden;
+    font-family: sans-serif;
+    margin-top: 170px;
+
+}
+
+h1{
+    margin-bottom: 40px;
+    color:goldenrod;
+    font-size: 5rem;
+}
+
+p{
+    margin: 15px;
+    color: white;
+    font-size: 2rem;
+}
+
+button{
+    width: 350px;
+    padding: 15px 0;
+    margin: 30px;
+    background:goldenrod;
+    border: none;
+    color: #016f32;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.parContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cont1{
+    margin: 0 30px;
+}
+.cont2{
+    margin: 0 30px;
+}
+
+.playerEl{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}

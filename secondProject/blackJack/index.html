@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BLACKJACK</h1>
+    <p id="message" onclick="startGame()"><i>Want to play a round</i></p>
+    <div class="parContainer">
+        <div class="cont1">
+            <p id="card1">Cards 1: </p>
+            <p id="card2">Cards 2: </p>
+            <p class="playerEl"></p>
+        </div>
+        <div class="cont2">
+            <p id="card3">Cards 3: </p>
+            <p id="card4">Cards 4: </p> 
+        </div>
+    </div>
+    <p id="sum">Sum: </p>
+    <div>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="newCard()">New Card</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

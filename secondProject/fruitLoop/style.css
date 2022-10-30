@@ -1,0 +1,28 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vw;
+background: black;
+}
+
+
+.appleEl{ 
+    background: rgb(206, 92, 92);
+    width: 200px;
+    height:50px;
+    color: white;
+    text-align: center;
+}
+.orangeEl{ 
+    background: orange;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}

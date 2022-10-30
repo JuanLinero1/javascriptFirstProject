@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxEl{
+    background: rgb(66, 161, 198);
+    color: white;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    font-size: 3.5rem;
+}
